@@ -78,9 +78,27 @@ namespace ListTest
       
         private void reverseOutput_Click(object sender, EventArgs e)
         {
+        //    if (students.Contains(inputBox.Text))
+        //    {
+        //        students.Remove(inputBox.Text);
+
+        //        originalOutput.Text = "";
+        //        sortOutput.Text = "Item Removed";
+        //        reverseOutput.Text = "";
+        //    }
+        //    else
+        //    {
+        //        originalOutput.Text = "";
+        //        sortOutput.Text = "Item does not Exist";
+        //        reverseOutput.Text = "";
+        //    }
+        }
+
+        private void removeButton_Click(object sender, EventArgs e)
+        {
             if (students.Contains(inputBox.Text))
             {
-                students.Remove (inputBox.Text);
+                students.Remove(inputBox.Text);
 
                 originalOutput.Text = "";
                 sortOutput.Text = "Item Removed";
