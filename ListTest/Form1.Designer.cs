@@ -52,6 +52,7 @@
             this.titleLabel.TabIndex = 34;
             this.titleLabel.Text = "List Examples";
             this.titleLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+           
             // 
             // removeButton
             // 
@@ -95,7 +96,7 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(33, 83);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(93, 16);
+            this.label1.Size = new System.Drawing.Size(92, 16);
             this.label1.TabIndex = 30;
             this.label1.Text = "Enter a Name:";
             // 
@@ -107,6 +108,7 @@
             this.reverseOutput.Name = "reverseOutput";
             this.reverseOutput.Size = new System.Drawing.Size(103, 146);
             this.reverseOutput.TabIndex = 29;
+            this.reverseOutput.Click += new System.EventHandler(this.reverseOutput_Click);
             // 
             // sortOutput
             // 
